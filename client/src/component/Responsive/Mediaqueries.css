@@ -1,0 +1,36 @@
+@media (max-width:901px){
+    .contactcontainer{
+        width: 100%;
+        height: 100vh;
+    }
+    /* .chatcontainer{
+        display: none;
+    } */
+    .profilecontainer{
+        width: 100%;
+        height: 100vh;
+    }
+    .addBox{
+        width: 85%;
+    }
+    .notification-container{
+        width: 100%;
+        height: 100vh;
+    }
+}
+@media (max-width:1350px) {
+    .contactlist, .notificationList{
+        height: 62vh;
+    }
+   
+}
+@media (min-width:1351px){
+    .contactlist,.notificationList{
+        height: 72vh;
+    }
+    
+   
+    .chatfooter{
+        margin-top: 100px;
+    }
+}

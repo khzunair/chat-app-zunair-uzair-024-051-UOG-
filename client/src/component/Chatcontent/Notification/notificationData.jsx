@@ -1,0 +1,47 @@
+const notificationData=[{
+    image:"./images/img1.png",
+    RequestPersonName:'Hamza'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Ali'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Imran'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Faizan'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+},{
+    image:"./images/img1.png",
+    RequestPersonName:'Zunair'
+}]
+export default notificationData;

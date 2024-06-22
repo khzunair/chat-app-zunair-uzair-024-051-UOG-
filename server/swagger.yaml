@@ -1,0 +1,39 @@
+openapi: 3.0.0
+info:
+  title: Convo-Panda API
+  description: API Documentation for the Convo-Panda Application APIs developed by Muhammad Uzair Zafar and Zunair Khawaja.
+  version: 0.1.9
+servers:
+  - url: http://api.example.com/v1
+    description: Optional server description, e.g. Main (production) server
+  - url: http://staging-api.example.com
+    description: Optional server description, e.g. Internal staging server for testing
+paths:
+ /api/users:
+    post:
+      summary: Register new User in DB.
+      description: A POST Request which creates a new user with name,email and password to save a new user in the database.
+      responses:
+        200:
+          description: Returns Created user.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                          description: The user full name.
+                          example: Zunair Khawaja  
+                        email:
+                          type: string
+                          description: The user email
+                          example: zunairkwj@gmail.com
+                        password:
+                          type: string
+                          description: The user password
+                          example: abc123d

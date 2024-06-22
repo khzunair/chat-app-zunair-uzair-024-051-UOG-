@@ -1,0 +1,124 @@
+.chatcontainer{
+    background-color:var(--background);
+    /* border: 2px solid black; */
+    height: 100vh;
+    padding: 0 15px;
+}
+.chatheader{
+    width: 100%;
+    height: 10vh;
+    /* border: 2px solid green; */
+    /* background-color: #5A078B; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    border: var(--headerBorder);
+    background-color:var(--header1);
+    box-shadow: var(--boxShadow);
+    color: var(--text);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10px;
+}
+#chatimage{
+    height: 52px;
+    width: 65px;
+    border-radius: 50%;
+}
+.chatcontentdetail{
+    /* border: 2px solid blue; */
+    width: 80%;
+}
+
+/* .functionality{
+    display: flex;
+    flex-direction: row-reverse;
+} */
+.chatinnercontainer{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70vh;
+}
+.chatfooter{
+    /* border: 2px solid green; */
+    /* background-color: rgb(243, 240, 240); */
+    padding: 7px 2px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content:center;
+    /* align-items: flex-start; */
+    gap: 2%;
+    margin-top: 30px;
+}
+.SvgIcon{
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: var(--header);
+}
+
+.chatinnercontainer{
+    overflow: scroll;
+
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: 4px;
+    /* height: 90vh; */
+    /* Align messages to the right side */
+  }
+  
+  .message {
+    max-width: 70%; /* Adjust as needed */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
+  
+  .sender {
+    background-color: var(--messageSend); /* Color for sender's messages */
+    color: var(--textSend);/* Text c olor for sender's messages */
+    align-self: flex-end; /* Align sender's messages to the right */
+    border-radius: 20px 20px 0 20px;
+  }
+  
+  .receiver {
+    background-color:var(--messageReceive); /* Color for receiver's messages */
+    color: white; 
+    /* color: var(--textReceive); */
+    align-self: flex-start; /* Align receiver's messages to the left */
+    padding: 10px;
+    border-radius: 20px 20px 20px 0;
+    /* display: flex;
+    flex-wrap: wrap;
+    width: 30px; */
+  }
+  .functionality{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+  }
+  
+.footerChat{
+  padding: 10px 0px 15px 15px;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--header1);
+  border: none;
+  color: var(--text);
+  
+    outline: none;
+}
+
+
+
+  /* @media (max-width:750px){
+    .chatcontainer{
+        display: none;
+    }
+} */

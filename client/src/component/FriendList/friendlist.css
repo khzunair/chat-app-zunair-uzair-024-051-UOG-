@@ -1,0 +1,93 @@
+.friendContactBox{
+    position:absolute;
+    z-index: 120;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 100vh;
+    background-color: #12161a;
+    opacity: 0.9;
+    color: white;
+  }
+  .addBox{
+    width: 40%;
+    /* height: 20vh; */
+    /* background-color: white; */
+    border-radius: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  .addheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* width: 1%; */
+    height: 7vh;
+    background-color: #024bdc;
+  }
+  .addTitle{
+    width: 79%;
+    display: flex;
+    gap:5%;
+    /* align-items: center; */
+  }
+  #addBtn{
+    margin-top: 3px;
+  }
+  .addinnerContainer label{
+    color: white;
+  }
+  .addbtn{
+    width: 19%;
+  }
+  .addContainer{
+    color: black;
+    padding: 1rem;
+  
+  }
+  .addinnerContainer{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .addinnerContainerBtn{
+    margin-top: 15px;
+  }
+  
+  .addResult{
+    margin-top: 15px;
+  }
+  #Resultimage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* margin-top: 10px; */
+  }
+  .resultbox{
+    
+    color: white;
+    /* margin-top: 10px; */
+  
+  }
+  h5{
+    color: white;
+  }
+  .Resultimgbox{
+    width: 20%;
+  }
+  .resultDetail{
+    width: 80%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  .addResult p{
+    color: white;
+  }
+  .friendlistbtn Button{
+    margin-left: 10px;
+  }

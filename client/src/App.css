@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-container{
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 1%; */
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  
+}
+.container-fluid{
+  padding: 0;
+}
+.show{
+  display: block;
+}
+.noShow{
+  display: none;
+}
+
+
+/* Add your regular styles here */
+
+/* Dark Mode Styles */
+
+/* Light Mode Styles for app-container */
+.app-container {
+  /* background-color: #f8f8f8; */
+  background-color: var(--background);
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Dark Mode Styles for app-container */
+
+
+/* Add more specific styles for other elements within app-container as needed */
+.component-transition {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.component-transition.hidden {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+.chatinnercontainer::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.darkTheme{
+  --background:#1D262E;
+  --header1:#36404A;
+  --text:#e5eeff;
+  --paragraph:#ebe9e9;
+  --messageReceive:#8480ff;
+  --messageSend:#485563;
+  --textSend:#ceeeff;
+  --textReceive:#cedfff;
+  --border:1px solid #4D5A66;
+  --purpleGrey:#cedfff;
+  --btn:white;
+}
+.lightTheme{
+  --background:#fafbff;
+  --header1:white;
+  --header:#4b0973;
+  --text:#4b0973;
+  --paragraph:#2b292f;
+  --messageReceive:#5a078b;
+  --messageSend:#e8efff;
+  --textSend:#32373f;
+  --textReceive:#c9d7f5;
+  --purpleGrey:white;
+  --boxShadow: 0px 4px 4px #F5F8FF;
+  --headerBorder:1px solid #F4EEFF;
+  --text:black;
+  --btn:white;
+  
+}
+
+
+/* @media screen and (max-width:1100px){
+  .contactimagebox{
+    width: 6em;
+  }
+  .contactDetail{
+    width: 10em;
+  }
+} */
+
+.container-fluid{
+  background-color: var(--background);
+}
+.form-control{
+  color: #5A078B;
+}
+.btn-primary{
+  background-color: var(--header1);
+  border: var(--border)
+}
+
+/* Apply transitions to elements based on the theme */
+.app-container {
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions */
+}

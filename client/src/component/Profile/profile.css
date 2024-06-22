@@ -1,0 +1,90 @@
+.profilecontainer{
+    /* border: 2px solid red; */
+    width: 45%;
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+    /* padding: 0 15px; */
+}
+.profileheader{
+    width: 100%;
+    height: 15vh;
+    /* background-color: rgb(243, 240, 240); */
+    background-color: var(--header);
+    color: white;
+    display: flex;
+    gap: 22px;
+    align-items: flex-end;
+    /* justify-content: space-around; */
+    /* padding: 45px; */
+    
+}
+informationbox label{
+  color: var(--text);
+}
+#icon{
+    margin-bottom: 10px;
+    margin-left: 13px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.imageprofilecontainer{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profileimage{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+ .container-fluid{
+    /* border: 2px solid red; */
+  }
+  .informationbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* text-align: center; */
+  }
+.inputprofile{
+    border: none;
+    border-bottom: 1px solid black;
+    /* background-color: rgb(243, 240, 240); */
+    padding-left: 7px;
+}
+
+/* profile.css */
+/* Add or modify these styles for the input fields */
+
+/* Input Container */
+.inputprofile {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Read-only Input Styles */
+  .inputprofile[readonly] {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+  }
+  
+  /* Hover Styles */
+  .inputprofile:hover:not([readonly]) {
+    border-color: #007bff;
+  }
+  
+  /* Focus Styles */
+  .inputprofile:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

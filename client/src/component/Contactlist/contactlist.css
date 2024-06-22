@@ -1,0 +1,307 @@
+.container-fluid{
+    /* border: 2px  solid red; */
+    /* border-right: 0.5px solid black; */
+    /* padding: 0px 3px; */
+    /* background-color: rgb(243, 240, 240); */
+    
+}
+.companylogo{
+    color: var(--purpleGrey);
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 23%;
+    
+
+}
+.imagebox{
+    width: 30%;
+    height: 100%;
+}
+.convobtn{
+    color: var(--btn);
+    width: 46%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 8%;
+}
+
+.contactcontainer{
+    width: 47%;
+    /* height: 100vh; */
+    position: relative;
+    /* border: 2px solid green; */
+    /* background-color: rgb(243, 240, 240); */
+    padding: 0 10px;
+    /* background-color: var(--header1); */
+    /* overflow: scroll; */
+}
+.contactheader{
+    /* border: 2px solid green; */
+    width: 100%;
+    /* height: 13vh; */
+    margin-top: 12px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 5px; */
+    align-items: center;
+    /* background-color: rgb(243, 240, 240); */
+    background-color: var(--header1);
+    color: white;
+    /* gap: 30px; */
+}
+#Avatarimage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.searchsection{
+    padding: 6px 0px 0px 0px;
+    
+}
+h4{
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+.input-group-text{
+    background-color: var(--background);
+    border-radius: 5px;
+    /* color:var(--text); */
+}
+.contactlist{
+    /* border: 2px solid red; */
+    /* padding: 7px; */
+    padding: 0px 3px;
+    overflow-x:hidden;
+    height: 67vh;
+    /* background-color: var(--header1); */
+    /* overflow: hidden; */
+    
+}
+.notificationBox{
+    display: flex;
+    gap: 2%;
+}
+.contactlist::-webkit-scrollbar {
+    width: 5px; /* Adjust the width as needed */
+  }
+  
+  
+  
+  .contactlist::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px; /* Rounded corners for the thumb */
+  }
+  
+  .contactlist::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+  }
+  
+  
+  
+  
+  
+  
+  
+/* contactlist.css */
+#Avatarimage {
+    transition: transform 0.3s ease-in-out; /* Add a transition for the transform property */
+  }
+  
+  #Avatarimage:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  
+  
+.contactlist-box{
+    display: flex;
+    /* margin-top: 10px ; */
+    margin-bottom: 3px;
+    padding: 8px;
+    gap: 20px;
+    background-color: var(--header1);
+    cursor: pointer;
+    
+   /* border-top: 0.5px solid grey; */
+   /* background-color:rgb(255, 240, 240); */
+   /* border-radius: 10px; */
+   /* border: 1px solid rgb(71, 71, 71); */
+   
+   
+}
+svg{
+    cursor: pointer;
+}
+.contactname h6{
+    color: var(--text);
+}
+.contactlist h4{
+    color: var(--text);
+    margin:2px 0px 15px 0px;
+    padding-left: 10px;
+}
+.contactlist span{
+    color: var(--paragraph);
+}
+.contactbox{
+    /* border: 1px solid rgb(228, 226, 226); */
+    /* box-shadow: 0px 4px 4px #F5F8FF; */
+    border: var(--border);
+    border-radius: 6px;
+    background-color: var(--header1);
+    box-shadow: var(--boxShadow);
+}
+
+
+.contactlist-box:hover{
+    /* background-color:#d8a5f6; */
+    color: white;
+}
+
+.contactimagebox{
+    /* width: 19%; */
+}
+.contactDetail{
+    width: 88%;
+    /* border-top: 1px solid rgb(168, 168, 168); */
+
+} 
+.btn{
+    padding: 0px 5px 2px 6px;
+    background-color: var(--header1);
+    /* border: 1px solid #ebe9e9; */
+    border: none;
+}
+ .btn1{
+  color: var(--btn);
+  
+  border: 1px solid #ebe9e9;
+  padding: 0px 6px 4px 5px;
+  border-radius: 3px;
+}
+.themeBtn{
+    /* border: 1px solid #ebe9e9; */
+    font-size: 1.5rem;
+    padding: 3px;
+    /* margin-left: 10px; */
+    border-radius: 3px
+}
+.input-group-text{
+    border: none;
+}
+.input-group{
+    /* border: 1px solid red; */
+    border: (--border);
+    border-radius: 5px;
+    box-shadow: var(--boxShadow);
+    background:var(--background);
+}
+/* Change the placeholder color for all input elements */
+.inputtt{
+    width: 100%;
+    padding: 8px 8px 8px 15px;
+    min-height: 47px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    outline: none;
+    background:var(--header1);
+    margin-top: 7px;
+    border-radius: 20px;
+   
+}
+input::placeholder{
+    color: (--text)
+}
+.dropdown-menu li,span{
+    cursor: pointer;
+}
+.dropdown-menu li{
+    display: flex;
+    gap: 10%;
+    padding-left: 5px;
+    /* width: 55%; */
+    border-radius: 10px;
+}
+.dropdown-menu.show svg{
+    color: var(--text);
+}
+.dropdown-menu.show{
+    background-color: var(--background);
+    color: var(--text);
+}
+.dropdown-menu li:hover{
+    background-color: var(--header1);
+}
+  
+.form-control{
+    /* background:black; */
+    /* color: white; */
+    border: none;
+    
+}
+.contactDetail h6,span{
+    /* font-size: 1rem; */
+}
+.contactname{
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 3px ; */
+    /* margin-bottom: -2px; */
+    
+    width: 100%;
+}
+.shortmsg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding:3px; */
+    width:100%;
+}
+.color{
+    color:var(--text);
+    /* background-color: white; */
+}
+
+
+.contactcontainer{
+    position: relative;
+}
+#span{
+    position: absolute;
+    z-index: 45;
+    /* margin-left: 455x; */
+    top: 40px;
+    /* left: 5%; */
+    right: 70px;
+    border-radius: 10px;
+    width: 7px;
+    height: 7px;
+    background-color: pink;
+}
+
+
+
+/* contactlist.css */
+
+/* Add styles for smaller screens */
+/* @media(max-width:650px){
+    .btn{
+        font-size: 0.7rem;
+        
+    }
+    .contactlist{
+        font-size: 0.8em;
+    }
+    #Avatarimage{
+        width: 2.5em;
+        height: 2.5rem;
+    }
+} */
+/* .contactchatbox{
+    border-radius: 45px;
+  } */
